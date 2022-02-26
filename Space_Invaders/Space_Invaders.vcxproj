@@ -97,7 +97,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Algorithms(Noise and others)\Dummy.cpp" />
+    <ClCompile Include="src\Game Class or Renderer (Subject to changes)\Dummy.cpp" />
+    <ClCompile Include="src\Scene Manager\Dummy.cpp" />
     <ClCompile Include="src\Scenes\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vendor\Dummy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Shaders\Dummy.shader" />
+    <None Include="res\Sprites\Dummy.shader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
